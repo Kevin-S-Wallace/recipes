@@ -1,0 +1,1 @@
+This folder is to add recipes on the fly and Claude will check here and reformat and add to _recipes.
