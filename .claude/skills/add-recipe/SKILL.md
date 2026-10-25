@@ -10,7 +10,7 @@ Turn a link, pasted recipe, or recipe-card photo into `_recipes/<slug>.md` follo
 ## Steps
 
 1. **Get the source.**
-   - URL: fetch the page. Prefer the schema.org `Recipe` JSON-LD (`<script type="application/ld+json">`) when present; fall back to the page text. Ignore the blog story, ads, and comments. If the fetch returns **403 Forbidden**, see **Blocked links** below.
+   - URL: fetch the page. Prefer the schema.org `Recipe` JSON-LD (`<script type="application/ld+json">`) when present; fall back to the page text. Ignore the blog story, ads, and comments. If the fetch is blocked (a 403, or a page with no actual recipe in it), see **Blocked links** below.
    - Pasted text: use it as-is.
    - Photo of a handwritten or printed card: transcribe it carefully, including crossed-out words and margin notes. See **Recipe cards** below.
    - Nothing attached? Check `incoming-recipes/` for files other than `readme.md` and process each one. Delete the incoming file in the same commit once its recipe is written.
@@ -37,12 +37,12 @@ Turn a link, pasted recipe, or recipe-card photo into `_recipes/<slug>.md` follo
 
 ## Blocked links
 
-Some sites refuse automated fetches. On a 403, don't retry with tricks and don't rebuild the recipe from memory or search results. Open a GitHub issue so the recipe isn't forgotten:
+Some sites refuse automated fetches. Treat the link as blocked when the fetch returns 403, or when it comes back OK but has no recipe in it: no `Recipe` JSON-LD and no ingredient list, just a "verify you are human" / "enable JavaScript" / access-denied page. Don't retry with tricks and don't rebuild the recipe from memory or search results. Open a GitHub issue so the recipe isn't forgotten:
 
 - First search open issues for the same URL; if one exists, point the user to it instead of opening a duplicate.
-- Title: `Need raw recipe text: <site or recipe name>`.
-- Body: the link, a note that fetching it returned 403, and the ask: paste the raw output from that link (the page text or its source, via View Source / Ctrl+U) as a comment on the issue, in the chat, or as a file in `incoming-recipes/`. Ask for the raw page, not a cleaned-up copy.
-- Write no recipe file and open no PR for it. Reply with the issue link in one line. Once the raw text arrives, carry on from step 2 with `source` set to the original URL, and close the issue from the PR (`Closes #<n>`).
+- Title: `Need recipe text: <site or recipe name>`.
+- Body: the link, what happened (403, or the page loaded without the recipe), and the ask: open the recipe's print page, select all, copy, and paste it as a comment on the issue, in the chat, or as a file in `incoming-recipes/`. Everything on the print page is fine; the skill strips what isn't needed.
+- Write no recipe file and open no PR for it. Reply with the issue link in one line. Once the text arrives, carry on from step 2 with `source` set to the original URL (not the print page URL), and close the issue from the PR (`Closes #<n>`).
 
 ## Recipe cards
 
