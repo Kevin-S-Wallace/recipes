@@ -1,0 +1,14 @@
+---
+layout: null
+---
+[
+{%- for r in site.recipes %}
+  {
+    "title": {{ r.title | jsonify }},
+    "url": {{ r.url | relative_url | jsonify }},
+    "tags": {% if r.tags %}{{ r.tags | jsonify }}{% else %}[]{% endif %},
+    "time": {{ r.time | jsonify }},
+    "made": [{% for d in r.made %}"{{ d | date: "%Y-%m-%d" }}"{% unless forloop.last %},{% endunless %}{% endfor %}]
+  }{% unless forloop.last %},{% endunless %}
+{%- endfor %}
+]

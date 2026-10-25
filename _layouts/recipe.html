@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="recipe">
+  <h1>{{ page.title }}</h1>
+  <p class="meta">
+    {% if page.time %}<span>{{ page.time }}</span>{% endif %}
+    {% if page.servings %}<span>Serves {{ page.servings }}</span>{% endif %}
+    {% if page.made and page.made.size > 0 %}
+      <span>Last made {{ page.made.first | date: "%b %-d, %Y" }} · {{ page.made.size }}×</span>
+    {% else %}
+      <span>Never made</span>
+    {% endif %}
+  </p>
+  {% if page.tags %}
+  <p class="tags">
+    {% for t in page.tags %}<a class="tag" href="{{ '/' | relative_url }}#tags={{ t | uri_escape }}">{{ t }}</a>{% endfor %}
+  </p>
+  {% endif %}
+  {{ content }}
+  {% if page.source %}<p class="source"><a href="{{ page.source }}">Original recipe</a></p>{% endif %}
+</article>

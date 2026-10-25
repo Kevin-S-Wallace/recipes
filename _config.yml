@@ -1,0 +1,27 @@
+title: Recipes
+description: Kevin's recipe collection and cook rotation
+
+collections:
+  recipes:
+    output: true
+    permalink: /:name/
+
+defaults:
+  - scope:
+      type: recipes
+    values:
+      layout: recipe
+
+exclude:
+  - README.md
+  - templates/
+  - .claude/
+
+plugins:
+  - jekyll-relative-links
+
+# Lets recipes link to each other as `other-recipe.md`, which works both on
+# GitHub and on the built site.
+relative_links:
+  enabled: true
+  collections: true

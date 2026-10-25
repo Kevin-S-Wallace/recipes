@@ -1,0 +1,56 @@
+:root {
+  --bg: #fbfaf7; --fg: #22201c; --muted: #6f6a60; --line: #e4e0d7;
+  --accent: #b5532a; --chip: #efebe3; --chip-on: #b5532a; --chip-on-fg: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1917; --fg: #ebe7df; --muted: #a29c90; --line: #34312c;
+    --accent: #e3875c; --chip: #2a2824; --chip-on: #e3875c; --chip-on-fg: #1a1917;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 17px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+main, .site-header { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+.site-header { padding-top: 20px; padding-bottom: 8px; }
+.site-header a { color: var(--fg); font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+a { color: var(--accent); }
+
+.controls { display: grid; gap: 10px; margin: 12px 0; }
+input, select, button { font: inherit; color: inherit; }
+#search, select {
+  width: 100%; padding: 10px 12px; border: 1px solid var(--line);
+  border-radius: 8px; background: var(--bg);
+}
+.row { display: flex; gap: 8px; }
+.row select { flex: 1; }
+#surprise {
+  padding: 10px 14px; border: 0; border-radius: 8px;
+  background: var(--accent); color: var(--chip-on-fg); cursor: pointer; white-space: nowrap;
+}
+
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag {
+  padding: 3px 10px; border: 0; border-radius: 999px; background: var(--chip);
+  color: var(--fg); font-size: 0.85rem; cursor: pointer; text-decoration: none;
+}
+.tag.on { background: var(--chip-on); color: var(--chip-on-fg); }
+
+.count { color: var(--muted); font-size: 0.9rem; margin: 4px 0; }
+.list { list-style: none; padding: 0; margin: 0; }
+.list li {
+  display: grid; grid-template-columns: 1fr auto; gap: 2px 12px;
+  padding: 12px 0; border-bottom: 1px solid var(--line);
+}
+.list .title { font-weight: 600; text-decoration: none; color: var(--fg); }
+.list .when { color: var(--muted); font-size: 0.9rem; text-align: right; }
+.list .when.never { color: var(--accent); }
+.list .rtags { grid-column: 1 / -1; color: var(--muted); font-size: 0.85rem; }
+
+.recipe h1 { margin: 8px 0 4px; line-height: 1.2; }
+.recipe .meta { color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 0 0 10px; }
+.recipe h2 { margin-top: 1.6em; font-size: 1.15rem; }
+.recipe li { margin: 4px 0; }
+.recipe .source { margin-top: 2em; font-size: 0.9rem; }

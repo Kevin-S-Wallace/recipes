@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<section class="controls">
+  <input id="search" type="search" placeholder="Search recipes or tags" autocomplete="off">
+  <div class="row">
+    <select id="sort" aria-label="Sort">
+      <option value="due">Due for rotation</option>
+      <option value="recent">Recently made</option>
+      <option value="az">A-Z</option>
+    </select>
+    <button id="surprise" type="button">Surprise me</button>
+  </div>
+  <div id="tags" class="tags"></div>
+</section>
+<p id="count" class="count"></p>
+<ul id="list" class="list"></ul>
+<script src="{{ '/assets/app.js' | relative_url }}" data-json="{{ '/recipes.json' | relative_url }}"></script>
