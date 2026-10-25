@@ -10,7 +10,7 @@ Turn a link, pasted recipe, or recipe-card photo into `_recipes/<slug>.md` follo
 ## Steps
 
 1. **Get the source.**
-   - URL: fetch the page. Prefer the schema.org `Recipe` JSON-LD (`<script type="application/ld+json">`) when present; fall back to the page text. Ignore the blog story, ads, and comments.
+   - URL: fetch the page. Prefer the schema.org `Recipe` JSON-LD (`<script type="application/ld+json">`) when present; fall back to the page text. Ignore the blog story, ads, and comments. If the fetch returns **403 Forbidden**, see **Blocked links** below.
    - Pasted text: use it as-is.
    - Photo of a handwritten or printed card: transcribe it carefully, including crossed-out words and margin notes. See **Recipe cards** below.
    - Nothing attached? Check `incoming-recipes/` for files other than `readme.md` and process each one. Delete the incoming file in the same commit once its recipe is written.
@@ -34,6 +34,15 @@ Turn a link, pasted recipe, or recipe-card photo into `_recipes/<slug>.md` follo
    - In the PR body list the tags (call out new ones) and every open question from the card.
    - If the push or PR is refused for lack of GitHub access, say so in one line and point the user to https://claude.ai/connect-github; the commit stays local until access is fixed.
 6. **Report back** with the PR link, the tags chosen, and any open questions, so the user can answer them in one reply.
+
+## Blocked links
+
+Some sites refuse automated fetches. On a 403, don't retry with tricks and don't rebuild the recipe from memory or search results. Open a GitHub issue so the recipe isn't forgotten:
+
+- First search open issues for the same URL; if one exists, point the user to it instead of opening a duplicate.
+- Title: `Need raw recipe text: <site or recipe name>`.
+- Body: the link, a note that fetching it returned 403, and the ask: paste the raw output from that link (the page text or its source, via View Source / Ctrl+U) as a comment on the issue, in the chat, or as a file in `incoming-recipes/`. Ask for the raw page, not a cleaned-up copy.
+- Write no recipe file and open no PR for it. Reply with the issue link in one line. Once the raw text arrives, carry on from step 2 with `source` set to the original URL, and close the issue from the PR (`Closes #<n>`).
 
 ## Recipe cards
 
