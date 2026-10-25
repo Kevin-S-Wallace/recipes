@@ -12,7 +12,8 @@ My recipe collection, with a cook rotation so I can see what's due.
 
 ## With Claude Code
 
-- `/add-recipe <url or pasted recipe>` — formats and saves a new recipe.
+- `/add-recipe <url, pasted recipe, or photo>` — formats a new recipe, commits it, and opens a PR. Or just send a photo of a recipe card and say "add this". Card photos are saved in [`images/`](images/) and shown on the recipe page.
+- Drop a recipe file in [`incoming-recipes/`](incoming-recipes/) and run `/add-recipe` with nothing else to process the whole folder.
 - `/log-cook <recipe> [date]` — records that I made something (or just say "I made X last night").
 
 You can also log a cook by editing a recipe's `made:` line in the GitHub web/mobile editor.

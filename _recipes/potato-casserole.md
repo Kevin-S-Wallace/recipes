@@ -28,3 +28,5 @@ made: []
 - The card has "(1 1/4 cup)" written with an arrow from the margarine line; 1 1/2 sticks is 3/4 cup, so that note may refer to something else.
 - The card originally said a small jar of Cheez Whiz, corrected to large.
 - Post Toasties are corn flakes; any plain corn flake cereal works.
+
+![Granny's handwritten recipe card](../images/potato-casserole.jpg)
