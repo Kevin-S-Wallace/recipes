@@ -8,7 +8,8 @@ My recipe collection, with a cook rotation so I can see what's due.
 
 - Each recipe is a Markdown file in [`_recipes/`](_recipes/) following [`templates/recipe.md`](templates/recipe.md).
 - The `made:` list in each recipe's frontmatter holds the dates I cooked it, newest first. The site sorts on that.
-- Pushing to `main` rebuilds the GitHub Pages site (`.github/workflows/pages.yml`).
+- Pushing to `main` rebuilds the GitHub Pages site (deployed from the `main` branch).
+- To save a recipe on the go, drop it into [`incoming-recipes/`](incoming-recipes/) on the `incoming` branch: a paste, a link, or a photo. That branch doesn't trigger a rebuild.
 
 ## With Claude Code
 
