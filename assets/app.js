@@ -5,7 +5,7 @@
   const today = new Date(new Date().toDateString());
 
   let recipes = [];
-  const state = { q: "", sort: "due", tags: new Set() };
+  const state = { q: "", sort: "due", tags: new Set(), hideNever: false };
 
   // Dates are YYYY-MM-DD; parse as local midnight so "days ago" is calendar days.
   const parse = (s) => { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); };
@@ -16,6 +16,7 @@
     state.q = p.get("q") || "";
     state.sort = p.get("sort") || "due";
     state.tags = new Set((p.get("tags") || "").split(",").filter(Boolean));
+    state.hideNever = p.get("made") === "1";
   }
 
   function writeHash() {
@@ -23,12 +24,14 @@
     if (state.q) p.set("q", state.q);
     if (state.sort !== "due") p.set("sort", state.sort);
     if (state.tags.size) p.set("tags", [...state.tags].join(","));
+    if (state.hideNever) p.set("made", "1");
     history.replaceState(null, "", p.toString() ? "#" + p : location.pathname);
   }
 
   function filtered() {
     const q = state.q.toLowerCase();
     const out = recipes.filter((r) =>
+      (!state.hideNever || r.made.length) &&
       [...state.tags].every((t) => r.tags.includes(t)) &&
       (!q || r.title.toLowerCase().includes(q) || r.tags.some((t) => t.toLowerCase().includes(q)))
     );
@@ -79,6 +82,7 @@
 
   $("search").oninput = (e) => { state.q = e.target.value; update(); };
   $("sort").onchange = (e) => { state.sort = e.target.value; update(); };
+  $("hidenever").onchange = (e) => { state.hideNever = e.target.checked; update(); };
   // Random pick from the least-recently-made third of whatever is currently filtered.
   $("surprise").onclick = () => {
     const pool = filtered();
@@ -88,7 +92,7 @@
   };
   window.addEventListener("hashchange", () => { readHash(); syncInputs(); renderTags(); render(); });
 
-  function syncInputs() { $("search").value = state.q; $("sort").value = state.sort; }
+  function syncInputs() { $("search").value = state.q; $("sort").value = state.sort; $("hidenever").checked = state.hideNever; }
 
   fetch(jsonUrl).then((r) => r.json()).then((data) => {
     recipes = data;

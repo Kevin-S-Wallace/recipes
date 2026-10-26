@@ -26,6 +26,7 @@ input, select, button { font: inherit; color: inherit; }
 }
 .row { display: flex; gap: 8px; }
 .row select { flex: 1; }
+.toggle { display: flex; align-items: center; gap: 6px; width: fit-content; cursor: pointer; }
 #surprise {
   padding: 10px 14px; border: 0; border-radius: 8px;
   background: var(--accent); color: var(--chip-on-fg); cursor: pointer; white-space: nowrap;
