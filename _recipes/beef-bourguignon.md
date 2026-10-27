@@ -33,7 +33,7 @@ made: []
 9. Serve the beef over mashed potatoes.
 
 ## Notes
-- From a pressure cooker cookbook (Beef & Lamb chapter, p. 209).
+- From the Half Baked Harvest cookbook (Beef & Lamb chapter, p. 209).
 - Cook time doesn't include the time to come to pressure.
 - The book pairs it with buttery mashed potatoes and crusty no-knead bread; store-bought mashed potatoes work too.
 - Store leftovers refrigerated in an airtight container for up to 3 days.
