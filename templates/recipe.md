@@ -1,6 +1,6 @@
 ---
 title: Recipe Title
-tags: [main-ingredient, cuisine, weeknight]
+tags: [main, protein, method, weeknight]
 source: https://example.com/original-recipe
 servings: 4
 time: 45 min

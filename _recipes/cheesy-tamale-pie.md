@@ -1,6 +1,6 @@
 ---
 title: Cheesy Tamale Pie
-tags: [beef, tex-mex, casserole, weeknight]
+tags: [main, beef, tex-mex, casserole, weeknight]
 servings: 8
 time: 1 hr 20 min
 made: []

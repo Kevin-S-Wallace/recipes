@@ -1,6 +1,6 @@
 ---
 title: Teriyaki Sauce
-tags: [sauce, teriyaki, make-ahead, vegetarian]
+tags: [sauce, vegetarian, make-ahead]
 source: https://reciperunner.com/wprm_print/homemade-teriyaki-sauce
 time: 10 min
 made: [2026-10-26]

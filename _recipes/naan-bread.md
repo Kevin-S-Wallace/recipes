@@ -1,6 +1,6 @@
 ---
 title: Naan Bread
-tags: [bread, indian, side]
+tags: [side, indian, vegetarian]
 servings: 8 pieces
 time: 1 hr 45 min
 made: []

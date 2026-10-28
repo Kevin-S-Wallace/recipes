@@ -1,6 +1,6 @@
 ---
 title: Buttermilk Pie
-tags: [pie, dessert]
+tags: [dessert]
 servings: 8
 time: 1 hr 15 min
 made: []

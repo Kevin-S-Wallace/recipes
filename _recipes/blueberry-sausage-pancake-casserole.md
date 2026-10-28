@@ -1,6 +1,6 @@
 ---
 title: Blueberry Sausage Pancake Casserole
-tags: [breakfast, sausage, casserole, make-ahead]
+tags: [breakfast, pork, casserole, make-ahead]
 time: 55 min
 made: []
 ---

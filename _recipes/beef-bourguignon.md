@@ -1,6 +1,6 @@
 ---
 title: Beef Bourguignon
-tags: [beef, french, one-pot, slow-cooker, pressure-cooker]
+tags: [main, beef, french, one-pot, slow-cooker, pressure-cooker]
 servings: 6
 time: 3 hr 30 min
 made: []

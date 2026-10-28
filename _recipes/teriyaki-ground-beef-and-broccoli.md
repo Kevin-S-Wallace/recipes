@@ -1,6 +1,6 @@
 ---
 title: Teriyaki Ground Beef and Broccoli
-tags: [beef, pork, teriyaki, one-pan, weeknight]
+tags: [main, beef, pork, one-pot, weeknight]
 source: https://reciperunner.com/wprm_print/teriyaki-ground-beef-and-broccoli
 time: 20 min
 made: []

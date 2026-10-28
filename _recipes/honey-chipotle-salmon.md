@@ -1,6 +1,6 @@
 ---
 title: Honey Chipotle Salmon
-tags: [salmon, fish, grill, weeknight]
+tags: [main, fish, grill, weeknight]
 servings: 4
 time: 35 min
 made: []

@@ -1,6 +1,6 @@
 ---
 title: Chicken Tikka Masala
-tags: [chicken, indian, curry, slow-cooker]
+tags: [main, chicken, indian, slow-cooker]
 servings: 5-6
 time: 1 hr
 made: []
