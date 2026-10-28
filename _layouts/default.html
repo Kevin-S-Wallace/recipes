@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <script src="{{ '/assets/upnext.js' | relative_url }}"></script>
 </head>
 <body>
   <header class="site-header">
     <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="nav" href="{{ '/grocery/' | relative_url }}">Grocery list <span class="upnext-count"></span></a>
   </header>
   <main>
     {{ content }}

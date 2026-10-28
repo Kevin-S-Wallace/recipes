@@ -3,6 +3,7 @@ layout: default
 ---
 <article class="recipe">
   <h1>{{ page.title }}</h1>
+  <button type="button" class="upnext-btn labeled" data-url="{{ page.url | relative_url }}" data-label>☆ Up next</button>
   <p class="meta">
     {% if page.time %}<span>{{ page.time }}</span>{% endif %}
     {% if page.servings %}<span>Serves {{ page.servings }}</span>{% endif %}

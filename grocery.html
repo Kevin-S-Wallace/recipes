@@ -1,0 +1,17 @@
+---
+layout: default
+title: Grocery list
+permalink: /grocery/
+---
+<h1 class="page-title">Grocery list</h1>
+<section id="planned" class="planned"></section>
+<div id="tools" class="row tools" hidden>
+  <select id="view" aria-label="Group by">
+    <option value="combined">Combined</option>
+    <option value="recipe">By recipe</option>
+  </select>
+  <button id="copy" type="button">Copy list</button>
+  <button id="uncheck" type="button" class="quiet">Uncheck all</button>
+</div>
+<div id="groceries"></div>
+<script src="{{ '/assets/grocery.js' | relative_url }}" data-json="{{ '/recipes.json' | relative_url }}"></script>
