@@ -55,3 +55,43 @@ input, select, button { font: inherit; color: inherit; }
 .recipe h2 { margin-top: 1.6em; font-size: 1.15rem; }
 .recipe li { margin: 4px 0; }
 .recipe .source { margin-top: 2em; font-size: 0.9rem; }
+
+.site-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.site-header a.nav { font-weight: 500; font-size: 0.95rem; color: var(--accent); }
+.upnext-count:not(:empty) {
+  display: inline-block; min-width: 1.4em; padding: 0 6px; border-radius: 999px;
+  background: var(--accent); color: var(--chip-on-fg); font-size: 0.8rem; text-align: center;
+}
+
+.toggles { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+.upnext-btn {
+  border: 0; background: none; padding: 0 4px 0 0; cursor: pointer;
+  color: var(--muted); font-size: 1.15rem; line-height: 1;
+}
+.upnext-btn.on { color: var(--accent); }
+.upnext-btn.labeled {
+  padding: 5px 12px; border-radius: 999px; background: var(--chip);
+  color: var(--fg); font-size: 0.9rem; margin: 4px 0 8px;
+}
+.upnext-btn.labeled.on { background: var(--chip-on); color: var(--chip-on-fg); }
+.list .head { display: flex; align-items: baseline; gap: 4px; min-width: 0; }
+
+.page-title { margin: 8px 0 4px; line-height: 1.2; }
+.planned h2, #groceries h2 { font-size: 1.15rem; margin: 1.2em 0 0.3em; }
+.planned .empty { color: var(--muted); }
+.tools { margin: 18px 0 4px; }
+.tools select { flex: 1; }
+.tools button, .quiet {
+  padding: 10px 14px; border: 0; border-radius: 8px; cursor: pointer; white-space: nowrap;
+  background: var(--accent); color: var(--chip-on-fg);
+}
+.tools button.quiet, .quiet { background: var(--chip); color: var(--fg); }
+#clearnext { margin-top: 10px; padding: 6px 12px; font-size: 0.9rem; }
+
+.grocery { list-style: none; padding: 0; margin: 0; }
+.grocery li { border-bottom: 1px solid var(--line); }
+.grocery label { display: flex; gap: 10px; align-items: flex-start; padding: 10px 0; cursor: pointer; }
+.grocery input { width: 1.15em; height: 1.15em; margin-top: 0.2em; flex: none; accent-color: var(--accent); }
+.grocery label > span { display: flex; flex-direction: column; min-width: 0; }
+.grocery .from { color: var(--muted); font-size: 0.85rem; }
+.grocery li.done .item { text-decoration: line-through; color: var(--muted); }
