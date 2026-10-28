@@ -15,7 +15,14 @@ Turn a link, pasted recipe, or recipe-card photo into `_recipes/<slug>.md` follo
    - Photo of a handwritten or printed card: transcribe it carefully, including crossed-out words and margin notes. See **Recipe cards** below.
    - Nothing attached? Check `incoming-recipes/` for files other than `readme.md` and process each one. Delete the incoming file in the same commit once its recipe is written.
 2. **Check for duplicates.** Look in `_recipes/` for the same dish or the same `source`. If one exists, ask before overwriting.
-3. **Pick tags.** Run `grep -h '^tags:' _recipes/*.md` and reuse existing tags wherever they fit. Aim for 2–5 lowercase, hyphenated tags covering main ingredient, cuisine, and occasion (e.g. `weeknight`, `make-ahead`, `dessert`). Only invent a new tag when nothing existing fits.
+3. **Pick tags** from the fixed vocabulary below. Tags exist to filter the list, so a tag that would only ever match one recipe doesn't earn a spot. Dish words like `cake`, `pasta`, or `teriyaki` belong in the title, where search already finds them.
+   - **Course** (always exactly one): `main`, `side`, `dessert`, `breakfast`, `sauce`
+   - **Protein** (savory dishes, when one defines the dish): `beef`, `chicken`, `pork` (sausage counts), `fish`, `vegetarian` (no meat, fish, or meat broth)
+   - **Method** (any that apply): `one-pot` (a single pot or skillet), `sheet-pan`, `casserole` (baked in a dish), `slow-cooker`, `pressure-cooker`, `grill`
+   - **Occasion** (any that apply): `weeknight` (about 45 min or less, hands-on), `make-ahead`
+   - **Cuisine** (only when it's a reason to pick the dish): reuse an existing one (`grep -h '^tags:' _recipes/*.md`), e.g. `indian`, `tex-mex`, `french`
+
+   Do not invent a tag outside this list on your own. If nothing fits and a new one seems worth it, ask the user first and, if they agree, add it to this list in the same PR.
 4. **Write the file** at `_recipes/<kebab-case-title>.md`:
    - Frontmatter keys in this order: `title`, `tags`, `source`, `servings`, `time`, `made`.
    - `tags: [a, b]` inline list. `made: []` for a new recipe.

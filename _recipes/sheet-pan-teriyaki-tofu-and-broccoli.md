@@ -1,6 +1,6 @@
 ---
 title: Sheet Pan Teriyaki Tofu and Broccoli
-tags: [tofu, vegetarian, teriyaki, sheet-pan, weeknight]
+tags: [main, vegetarian, sheet-pan, weeknight]
 source: https://reciperunner.com/wprm_print/sheet-pan-crispy-teriyaki-tofu-and-broccoli
 servings: 8
 time: 40 min

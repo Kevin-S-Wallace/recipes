@@ -1,6 +1,6 @@
 ---
 title: Coconut Curry Dumpling Bake
-tags: [dumplings, curry, one-pan, weeknight]
+tags: [main, casserole, weeknight]
 time: 40 min
 made: []
 ---

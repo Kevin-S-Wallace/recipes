@@ -1,6 +1,6 @@
 ---
 title: Creamy Sausage Vodka Pasta
-tags: [sausage, pasta, one-pot, weeknight]
+tags: [main, pork, one-pot, weeknight]
 servings: 6
 time: 45 min
 made: []

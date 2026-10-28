@@ -1,6 +1,6 @@
 ---
 title: Chocolate Layer Cake
-tags: [dessert, cake, chocolate, make-ahead]
+tags: [dessert, make-ahead]
 source: https://sallysbakingaddiction.com/triple-chocolate-layer-cake/
 servings: 12-16
 time: 4 hr

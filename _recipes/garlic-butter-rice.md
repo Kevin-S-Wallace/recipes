@@ -1,6 +1,6 @@
 ---
 title: Garlic Butter Rice
-tags: [rice, side, one-pot]
+tags: [side, one-pot]
 source: https://craveitall.com/garlic-butter-rice/
 servings: 4
 time: 30 min

@@ -1,6 +1,6 @@
 ---
 title: Homemade Oatmeal Cream Pies
-tags: [dessert, cookies, make-ahead]
+tags: [dessert, make-ahead]
 source: https://sallysbakingaddiction.com/homemade-little-debbie-oatmeal-creme-pies/
 servings: 15 sandwiches
 time: 1 hr 30 min

@@ -1,6 +1,6 @@
 ---
 title: Potato Casserole
-tags: [potato, casserole, side, make-ahead]
+tags: [side, casserole, make-ahead]
 time: 1 hr 15 min
 made: []
 ---

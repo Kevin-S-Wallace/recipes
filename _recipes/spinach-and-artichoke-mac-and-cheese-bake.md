@@ -1,6 +1,6 @@
 ---
 title: Spinach and Artichoke Mac-and-Cheese Bake
-tags: [pasta, casserole, vegetarian, weeknight]
+tags: [main, vegetarian, casserole, weeknight]
 servings: 6 to 8
 time: 50 min
 made: []
