@@ -33,7 +33,7 @@ made: []
 7. Stir the sausage back in along with 1 cup frozen peas and heat through. Adjust salt, pepper, and chili to taste, and serve with more parmesan.
 
 ## Notes
-- From a TikTok by Here's Your Bite (posted 2025-05-08, "One Pan Meals" playlist).
+- From a TikTok by Here's Your Bite, "One-Pan Creamy Vodka Pasta with Spicy Italian Sausage and Peas" (posted 2025-05-08, "One Pan Meals" playlist). The full written recipe is linked in the creator's bio.
 - The original uses DeLallo shellbow pasta, which is hard to find; rigatoni works well. Check doneness at about 15 minutes, since covered simmering in broth can take a minute or two longer than the box time. If the pot runs dry before the pasta is done, add a splash of broth or water.
 - Use more heavy cream for a creamier sauce. The original used a full tablespoon of Calabrian chili paste.
 - Yellow onion can stand in for the shallots.
