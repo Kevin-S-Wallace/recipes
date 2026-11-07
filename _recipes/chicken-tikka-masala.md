@@ -10,7 +10,7 @@ made: []
 ### Chicken marinade
 - 42 oz (1.2kg) boneless skinless chicken breasts, cut into bite-sized pieces
 - 1 1/2 cups plain yogurt
-- 2 1/4 tablespoons minced garlic
+- 2 1/2 tablespoons minced garlic
 - 1 1/2 tablespoons ginger, grated
 - 1 tablespoon garam masala
 - 1 1/2 teaspoons turmeric
@@ -22,40 +22,39 @@ made: []
 - 3 tablespoons vegetable or canola oil
 - 3 tablespoons butter
 - 3 small onions (or 1 large and 1 small), finely diced
-- 2 1/4 tablespoons garlic, finely grated
+- 2 1/2 tablespoons garlic, finely grated
 - 1 1/2 tablespoons ginger, finely grated
-- 2 1/4 teaspoons garam masala
-- 2 1/4 teaspoons ground cumin
+- 3/4 tablespoon garam masala
+- 3/4 tablespoon ground cumin
 - 1 1/2 teaspoons turmeric
 - 1 1/2 teaspoons ground coriander
-- 21 oz (600g) tomato puree (passata)
+- 24 oz (680g) tomato puree (passata)
 - 1 1/2 teaspoons Kashmiri chili (optional, for color and flavor)
 - 1 1/2 teaspoons ground red chili powder, adjusted to taste
 - 1 1/2 teaspoons salt
-- 1 7/8 cups heavy cream (or evaporated milk for fewer calories)
+- 2 cups heavy cream (or evaporated milk for fewer calories)
 - 1 1/2 teaspoons brown sugar
 - 6 tablespoons water, if needed
 - 6 tablespoons fresh cilantro, to garnish
 
 ## Instructions
 ### Oven
-1. In a bowl, combine the chicken with 1 1/2 cups yogurt, 2 1/4 tablespoons minced garlic, 1 1/2 tablespoons ginger, 1 tablespoon garam masala, 1 1/2 teaspoons turmeric, 1 1/2 teaspoons cumin, 1 1/2 teaspoons Kashmiri chili, and 1 1/2 teaspoons salt. Marinate 10 minutes to 1 hour, or overnight.
+1. In a bowl, combine the chicken with 1 1/2 cups yogurt, 2 1/2 tablespoons minced garlic, 1 1/2 tablespoons ginger, 1 tablespoon garam masala, 1 1/2 teaspoons turmeric, 1 1/2 teaspoons cumin, 1 1/2 teaspoons Kashmiri chili, and 1 1/2 teaspoons salt. Marinate 10 minutes to 1 hour, or overnight.
 2. Preheat the oven to 500°F. Line two high-sided baking pans with parchment paper.
 3. Thread the chicken onto skewers and set them across the pans so there's space underneath. Don't crowd them, or the chicken steams instead of browning. Bake about 15 minutes, until slightly dark brown on the edges.
 4. In a large pot, heat 3 tablespoons oil and melt 3 tablespoons butter. Fry the onions until soft, about 3-4 minutes, scraping up any browned bits.
-5. Add 2 1/4 tablespoons garlic and 1 1/2 tablespoons ginger and sauté 1 minute until fragrant. Add 2 1/4 teaspoons garam masala, 2 1/4 teaspoons cumin, 1 1/2 teaspoons turmeric, and 1 1/2 teaspoons coriander and fry about 20 seconds, stirring.
-6. Pour in 21 oz tomato puree, 1 1/2 teaspoons Kashmiri chili, 1 1/2 teaspoons red chili powder, and 1 1/2 teaspoons salt. Simmer 15-20 minutes, stirring occasionally, until thick and deep red-brown.
-7. Stir in 1 7/8 cups cream and 1 1/2 teaspoons brown sugar. Add the chicken and its juices and cook 10-12 minutes, until the chicken is cooked through and the sauce is thick and bubbling. Thin with up to 6 tablespoons water if needed.
+5. Add 2 1/2 tablespoons garlic and 1 1/2 tablespoons ginger and sauté 1 minute until fragrant. Add 3/4 tablespoon garam masala, 3/4 tablespoon cumin, 1 1/2 teaspoons turmeric, and 1 1/2 teaspoons coriander and fry about 20 seconds, stirring.
+6. Pour in 24 oz tomato puree, 1 1/2 teaspoons Kashmiri chili, 1 1/2 teaspoons red chili powder, and 1 1/2 teaspoons salt. Simmer 15-20 minutes, stirring occasionally, until thick and deep red-brown.
+7. Stir in 2 cups cream and 1 1/2 teaspoons brown sugar. Add the chicken and its juices and cook 10-12 minutes, until the chicken is cooked through and the sauce is thick and bubbling. Thin with up to 6 tablespoons water if needed.
 8. Garnish with 6 tablespoons cilantro. Serve with [garlic butter rice](garlic-butter-rice.md) and [homemade naan](naan-bread.md).
 
 ### Slow cooker
 1. Marinate the chicken as in oven step 1.
 2. Optionally, soften the onions in a little oil in a pan first.
-3. Add everything except the 1 7/8 cups cream and the cilantro to a 6-quart (or larger) slow cooker. Cook on low 6-8 hours.
-4. About 30 minutes before serving, stir in 1 7/8 cups cream.
+3. Add everything except the 2 cups cream and the cilantro to a 6-quart (or larger) slow cooker. Cook on low 6-8 hours.
+4. About 30 minutes before serving, stir in 2 cups cream.
 5. Cook 30 minutes more, then garnish with 6 tablespoons cilantro.
 
 ## Notes
-- Scaled to 8 servings (1.5× the original), about 5 oz raw chicken per person. A 2 1/2-3 lb pack of chicken and a 24 oz jar of passata are close enough.
-- 1 7/8 cups cream is just under 2 cups.
+- Scaled to 8 servings (1.5× the original), about 5 oz raw chicken per person. A 2 1/2-3 lb pack of chicken is close enough.
 - For 8 people, make 2× the [garlic butter rice](garlic-butter-rice.md) and 1 1/2-2× the [naan](naan-bread.md) (12-16 pieces).
