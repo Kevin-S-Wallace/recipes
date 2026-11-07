@@ -3,7 +3,7 @@ title: Cheesy Tamale Pie
 tags: [main, beef, tex-mex, casserole, weeknight]
 servings: 8
 time: 1 hr 20 min
-made: []
+made: [2026-11-01]
 ---
 
 ## Ingredients
@@ -27,7 +27,7 @@ made: []
 4. Dump the hot beef into the 9x13. Add 1 packet taco seasoning, the 15 oz can of enchilada sauce, the 15 oz can of drained black beans, 1 cup frozen corn, and the 4 oz can of green chiles with their liquid. Stir right in the dish and spread flat.
 5. Sprinkle the 8 oz bag of pepper jack over the top.
 6. Pour the cornbread batter over the cheese and spread it to the edges.
-7. Bake uncovered at 350°F for about 60 minutes, checking at 50: a toothpick in the center of the cornbread should come out clean.
+7. Bake uncovered at 350°F for 1 hour, until a toothpick in the center of the cornbread comes out clean.
 8. Rest 10 minutes, then scoop. Top with sour cream or salsa if you like.
 
 ## Notes
