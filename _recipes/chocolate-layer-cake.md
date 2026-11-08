@@ -24,7 +24,7 @@ made: []
 
 ### Chocolate buttercream
 - 1 1/4 cups (282g) unsalted butter, softened to room temperature
-- 3 1/2 cups (420g) confectioners' sugar, plus up to 1/4 cup more if needed
+- 3 1/2 cups (420g) confectioners' sugar, plus up to 1/4 cup (30g) more if needed
 - 3/4 cup (64g) unsweetened cocoa powder (natural or Dutch-process)
 - 3-5 tablespoons heavy cream (or half-and-half or milk), at room temperature
 - 1 teaspoon pure vanilla extract
@@ -33,13 +33,13 @@ made: []
 
 ## Instructions
 1. Preheat the oven to 350°F. Grease two 9-inch cake pans, line them with parchment rounds, and grease the parchment.
-2. In a large bowl, whisk 1 3/4 cups flour, 3/4 cup cocoa powder, 1 3/4 cups sugar, 2 teaspoons baking soda, 1 teaspoon baking powder, 1 teaspoon salt, and 2 teaspoons espresso powder (if using). Set aside.
+2. In a large bowl, whisk 1 3/4 cups (219g) flour, 3/4 cup cocoa powder, 1 3/4 cups (350g) sugar, 2 teaspoons baking soda, 1 teaspoon baking powder, 1 teaspoon salt, and 2 teaspoons espresso powder (if using). Set aside.
 3. In another bowl with a mixer (or a whisk), mix 1/2 cup oil, 2 eggs, and 2 teaspoons vanilla on medium-high until combined. Add 1 cup buttermilk and mix until combined.
 4. Pour the dry ingredients into the wet, add 1 cup hot coffee, and whisk or beat on low until completely combined. The batter will be thin.
 5. Divide the batter evenly between the pans. Bake 23-26 minutes, until a toothpick in the center comes out clean. It's normal for the cooled cakes to sink slightly in the center.
 6. Cool in the pans on a rack for 1 hour. Run a knife around the edges, turn the cakes out, peel off the parchment, and let them finish cooling on the rack.
-7. **Buttercream:** beat 1 1/4 cups butter on medium until creamy, about 2 minutes. Add 3 1/2 cups confectioners' sugar, 3/4 cup cocoa powder, 3 tablespoons heavy cream, 1 teaspoon vanilla, and 1/4 teaspoon salt. Beat on low 30 seconds, then on high for 1 full minute. Don't over-whip.
-8. Adjust the frosting: add up to 1/4 cup more confectioners' sugar or cocoa if it's too thin, or 1-2 more tablespoons cream if it's too thick. Taste and add a pinch of salt if desired.
+7. **Buttercream:** beat 1 1/4 cups butter on medium until creamy, about 2 minutes. Add 3 1/2 cups (420g) confectioners' sugar, 3/4 cup cocoa powder, 3 tablespoons heavy cream, 1 teaspoon vanilla, and 1/4 teaspoon salt. Beat on low 30 seconds, then on high for 1 full minute. Don't over-whip.
+8. Adjust the frosting: add up to 1/4 cup more confectioners' sugar (30g) or cocoa if it's too thin, or 1-2 more tablespoons cream if it's too thick. Taste and add a pinch of salt if desired.
 9. If the cakes are domed, slice a thin layer off the tops with a serrated knife to level them.
 10. Place 1 layer on a cake stand or plate and spread frosting evenly over the top. Add the second layer and frost the top and sides with the rest. Garnish with chocolate chips if desired.
 11. Refrigerate uncovered at least 30-60 minutes before slicing to set. Serve at room temperature or chilled.

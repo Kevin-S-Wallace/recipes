@@ -10,7 +10,7 @@ made: []
 - 1 teaspoon sugar
 - 1/2 cup warm water
 - 1/4 oz (2 1/4 teaspoons) active dry yeast
-- 2 1/4 cups all-purpose flour
+- 2 1/4 cups (281g) all-purpose flour
 - 1/2 cup plain yogurt
 - 1 teaspoon salt
 - 1 tablespoon oil, plus more for greasing the skillet
@@ -18,7 +18,7 @@ made: []
 
 ## Instructions
 1. In a small bowl, stir together 1 teaspoon sugar, 1/2 cup warm water, and 2 1/4 teaspoons yeast. Let sit until foamy, about 10 minutes.
-2. Pile 2 1/4 cups flour on a flat surface and make a well in the middle.
+2. Pile 2 1/4 cups (281g) flour on a flat surface and make a well in the middle.
 3. Add the yeast mixture, 1/2 cup yogurt, 1 teaspoon salt, and 1 tablespoon oil to the well. Knead until the dough is smooth and shiny, about 10 minutes.
 4. Cover with a damp cloth and let rise in a warm spot (next to the stove or a warm oven) until doubled, about 1 hour.
 5. Divide the dough into 8 equal portions and roll each into an 8-inch circle.
