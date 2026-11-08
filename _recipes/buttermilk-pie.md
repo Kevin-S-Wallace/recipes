@@ -9,7 +9,7 @@ made: []
 ## Ingredients
 - 1 unbaked 9-inch pie shell
 - 1/2 cup butter, melted
-- 2 cups sugar
+- 2 cups (400g) sugar
 - 3 rounded tablespoons flour
 - 3 eggs
 - 1 cup buttermilk
@@ -18,7 +18,7 @@ made: []
 
 ## Instructions
 1. Preheat the oven to 350°F.
-2. Mix together, in this order, 1/2 cup melted butter, 2 cups sugar, 3 rounded tablespoons flour, 3 eggs, 1 cup buttermilk, 1 tablespoon vanilla, and a dash of nutmeg until smooth.
+2. Mix together, in this order, 1/2 cup melted butter, 2 cups (400g) sugar, 3 rounded tablespoons flour, 3 eggs, 1 cup buttermilk, 1 tablespoon vanilla, and a dash of nutmeg until smooth.
 3. Pour the filling into 1 unbaked pie shell.
 4. Bake at 350°F for 60 minutes or more, until the top is golden and the center is just set with a slight jiggle.
 5. Cool completely on a rack before slicing.
