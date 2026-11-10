@@ -58,5 +58,5 @@ made: [2026-11-08]
 ## Notes
 - Makes about 10 servings (1.5× the original sauce). 2.8 lb of chicken was a little light for 10, so the chicken is bumped to about 3 1/4 lb; anything from 3 to 3 1/2 lb works with this much sauce.
 - 1/2 teaspoon cayenne in the sauce gives just a touch of heat. Add more for spicier.
-- For 10 people, make the double batch of [garlic butter rice](garlic-butter-rice.md) (serves 10-12) and 2× the [naan](naan-bread.md) (16 pieces).
+- For 10 people, make the double batch of [garlic butter rice](garlic-butter-rice.md) (serves 10-12) the double batch of [naan](naan-bread.md) (16 pieces).
 - 2026-11-08: used 2.8 lb chicken with virtually no waste and 1/2 teaspoon cayenne for the red chili powder. Made 10 servings; could have used a little more chicken.
