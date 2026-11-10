@@ -9,6 +9,7 @@ My recipe collection, with a cook rotation so I can see what's due.
 - Each recipe is a Markdown file in [`_recipes/`](_recipes/) following [`templates/recipe.md`](templates/recipe.md).
 - The `made:` list in each recipe's frontmatter holds the dates I cooked it, newest first. The site sorts on that.
 - Tap ☆ on a recipe (in the list or on its page) to mark it **up next**. The **Grocery list** page combines the ingredients of everything up next into one checklist, with matching ingredients grouped together, and has a button to copy it. Up-next picks and checked items are saved in the browser, so each device keeps its own list.
+- A recipe can carry more than one batch size, each written out in full (e.g. [garlic butter rice](_recipes/garlic-butter-rice.md) has Double and Single). List them under `batches:` in the frontmatter and wrap each version in `<div class="batch" data-batch="Double" markdown="1">`. The page gets a switch at the top, and the grocery list uses whichever batch was picked. Nothing is calculated on the fly.
 - Pushing to `main` rebuilds the GitHub Pages site (deployed from the `main` branch).
 - To save a recipe on the go, drop it into [`incoming-recipes/`](incoming-recipes/) on the `incoming` branch: a paste, a link, or a photo. That branch doesn't trigger a rebuild.
 

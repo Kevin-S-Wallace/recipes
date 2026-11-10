@@ -18,9 +18,14 @@
   }
 
   // Pulls the list items under the recipe page's "Ingredients" heading, keeping any ### subsection name.
-  function ingredients(html) {
+  // For a recipe with batch sizes, reads the batch picked on its page (or the first one).
+  function ingredients(html, url) {
     const doc = new DOMParser().parseFromString(html, "text/html");
-    const h2 = [...doc.querySelectorAll(".recipe h2")].find((h) => /ingredients/i.test(h.textContent));
+    const batches = [...doc.querySelectorAll(".recipe .batch[data-batch]")];
+    let picked = null;
+    try { picked = localStorage.getItem("batch:" + url); } catch (e) {}
+    const scope = batches.find((b) => b.dataset.batch === picked) || batches[0] || doc;
+    const h2 = [...scope.querySelectorAll(scope === doc ? ".recipe h2" : "h2")].find((h) => /ingredients/i.test(h.textContent));
     const out = [];
     let section = "";
     for (let n = h2 && h2.nextElementSibling; n && n.tagName !== "H2"; n = n.nextElementSibling) {
@@ -121,7 +126,7 @@
   function refresh() {
     const missing = UpNext.all().filter((u) => !pages[u] && recipes.some((r) => r.url === u));
     render();
-    Promise.all(missing.map((u) => fetch(u).then((r) => r.text()).then((h) => { pages[u] = ingredients(h); })))
+    Promise.all(missing.map((u) => fetch(u).then((r) => r.text()).then((h) => { pages[u] = ingredients(h, u); })))
       .then(render);
   }
 

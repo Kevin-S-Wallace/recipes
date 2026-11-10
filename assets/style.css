@@ -95,3 +95,7 @@ input, select, button { font: inherit; color: inherit; }
 .grocery label > span { display: flex; flex-direction: column; min-width: 0; }
 .grocery .from { color: var(--muted); font-size: 0.85rem; }
 .grocery li.done .item { text-decoration: line-through; color: var(--muted); }
+
+.batch-switch { display: flex; gap: 6px; margin: 4px 0 8px; }
+.batch-switch .tag { padding: 5px 14px; font-size: 0.9rem; }
+.recipe [hidden] { display: none; }
