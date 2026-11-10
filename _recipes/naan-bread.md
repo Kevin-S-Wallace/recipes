@@ -3,7 +3,7 @@ title: Naan Bread
 tags: [side, indian, vegetarian]
 servings: 8 pieces
 time: 1 hr 45 min
-made: []
+made: [2026-11-08]
 ---
 
 ## Ingredients
@@ -29,3 +29,4 @@ made: []
 ## Notes
 - If the dough is sticky, knead in up to 2 more tablespoons flour.
 - Used in [Chicken Tikka Masala](chicken-tikka-masala.md).
+- 2026-11-08: dough was sticky, so I kneaded in more flour.

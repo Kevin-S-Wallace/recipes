@@ -6,13 +6,21 @@ layout: default
   <button type="button" class="upnext-btn labeled" data-url="{{ page.url | relative_url }}" data-label>☆ Up next</button>
   <p class="meta">
     {% if page.time %}<span>{{ page.time }}</span>{% endif %}
-    {% if page.servings %}<span>Serves {{ page.servings }}</span>{% endif %}
+    {% if page.batches %}
+      {% for b in page.batches %}<span class="batch-servings" data-batch="{{ b.name }}">Serves {{ b.servings }}</span>{% endfor %}
+    {% elsif page.servings %}<span>Serves {{ page.servings }}</span>{% endif %}
     {% if page.made and page.made.size > 0 %}
       <span>Last made {{ page.made.first | date: "%b %-d, %Y" }} · {{ page.made.size }}×</span>
     {% else %}
       <span>Never made</span>
     {% endif %}
   </p>
+  {% if page.batches %}
+  <p class="batch-switch" role="group" aria-label="Batch size">
+    {% for b in page.batches %}<button type="button" class="tag" data-batch="{{ b.name }}">{{ b.name }}</button>{% endfor %}
+  </p>
+  <script src="{{ '/assets/batch.js' | relative_url }}"></script>
+  {% endif %}
   {% if page.tags %}
   <p class="tags">
     {% for t in page.tags %}<a class="tag" href="{{ '/' | relative_url }}#tags={{ t | uri_escape }}">{{ t }}</a>{% endfor %}
